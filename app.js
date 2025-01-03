@@ -60,14 +60,4 @@ function removeElements(arr, k, m) {
 
 // Masala-9 Tushunmadm ustoz
 
-//Masala-10  shu misola chatgpt dan yordam oldim ustoz
-function Total(products) {
-    let Sum = 0;
-
-    products.forEach(product => {
-        let counted = product.price - (product.price * product.discount / 100);
-        Sum += counted;
-    });
-
-    return totalSum;
-}
+//Masala-10 shu masalaga xam tushunmadm ustoz
